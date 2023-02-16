@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
+ * main - Entry
  *
- * Description: This function prints the sizes of various data types to the console using the printf() function and the sizeof operator.
- * Return: Always 0 (Success)
- */
+ * Description: The function prints the sizes of data types to the console using the printf()function and the sizeof operator.
+ * Return: Always 0
+ *  */
 
 int main(void)
 {
