@@ -2,10 +2,9 @@
 
 /**
  * main - Entry point
- * Description: This function prints a message to the console using the printf() function.
- * Return: Always 0 
+ * Description: This func prints a message to the console using the printf()
+ *  * Return: Always 0
  */
-
 int main(void)
 {
 	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
