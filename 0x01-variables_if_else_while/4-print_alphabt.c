@@ -3,17 +3,21 @@
 /**
  * main - prints prints the alphabet in lowercase, followed by a new line
  * Print all the letters except q and e
- * Return: Always 0(success)
+ * Return: always 0(successc)
  */
 int main(void)
 {
-	char la;
-	for la = ('la'; la <= 'z'; la++)
+	char letter;
+
+	letter = 'a';
+	while (letter <= 'z')
 	{
-		if (la != 'e' && != 'q')
-			putchar(la);
+	if (letter != 'q' && letter != 'e')
+	{
+		putchar(letter);
 	}
-	putchar('\n')
+	letter++;
+	}
+	putchar('\n');
 	return (0);
 }
-
